@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Momentum App</title>
+</head>
+<body>
+	<i class="fas fa-random" id="changeImg"> change background</i>
+	<div id="weather">
+		<span></span>
+		<span></span>
+	</div>
+	<h1 id="clock">00:00:00</h2>
+	<form class="hidden" id="login-form">
+		<input
+		required
+		maxlength="15"
+		type="text"
+		placeholder="What is your name?"
+		/>
+	</form>
+	<h2 id="greeting" class="hidden"></h1>
+	<form class="hidden" id="todo-form">
+		<div id="todo-set">
+			<label for="todo-input" id="ask-todo">What is your main focus for today?</label>
+			<input id="todo-input" type="text" required/>
+		</div>
+	</form>
+	<ul id="todo-list">
+	</ul>
+	<div id="quotes">
+		<span></span>
+		<span></span>
+	</div>
+	<script src="js/background.js"></script>
+	<script src="js/weather.js"></script>
+	<script src="js/clock.js"></script>
+	<script src="js/greeting.js"></script>
+	<script src="js/quotes.js"></script>
+	<script src="js/todo.js"></script>
+</body>
+</html>

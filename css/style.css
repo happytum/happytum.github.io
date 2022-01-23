@@ -1,0 +1,95 @@
+body {
+	color: white;
+	text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#changeImg {
+	font-size: 0.25em;
+}
+
+.hidden {
+	display: none;
+}
+#clock {
+	margin-top: 15%;
+	margin-bottom: 0;
+	font-size: 8em;
+	display: flex;
+	justify-content: center;
+}
+#greeting {
+	margin-top: 0%;
+	font-size: 3em;
+	display: flex;
+	justify-content: center;
+}
+#todo-set {
+	font-size: 2em;
+	display: table-cell;
+}
+form {
+	display: flex;
+	justify-content: center;
+}
+#todo-list li {
+	display: flex;
+	justify-content: center;
+}
+#todo-list li span {
+	font-size: 1.5em;
+}
+#quotes {
+	display: flex;
+	justify-content: center;
+}
+#weather {
+	display: flex;
+	justify-content: right;
+}
+#login-form input {
+    width: 30% !important;
+    padding-top: 4px;
+    display: block;
+    background: transparent;
+	border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    font-size: 2em;
+    line-height: 1.2;
+    font-weight: 500;
+    outline: none;
+    text-align: center;
+    transition: border-color .2s ease;
+}
+#login-form input::placeholder {
+	color: white;
+	text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+
+}
+#todo-input {
+    width: 100% !important;
+    padding-top: 4px;
+    display: block;
+    background: transparent;
+	border: none;
+    border-bottom: 2px solid #fff;
+    color: white;
+    font-size: 1em;
+    line-height: 1.2;
+    font-weight: 500;
+    outline: none;
+    text-align: center;
+    transition: border-color .2s ease;
+}
+
+input:focus {
+	outline: none;
+}
+
+#quotes {
+	font-size: 1.3em;
+	position: fixed;
+	bottom: 2%;
+	width: 100%;
+}
