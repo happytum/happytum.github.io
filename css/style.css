@@ -43,9 +43,13 @@ form {
 	display: flex;
 	justify-content: center;
 }
+.fas .fa-random{
+	float: left;
+}
 #weather {
-	display: flex;
-	justify-content: right;
+	float: right;
+	/* display: flex;
+	justify-content: right; */
 }
 #login-form input {
     width: 30% !important;
